@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body
+    style="
+      max-width: 900px;
+      margin: 0px auto;
+      padding: 0px var(--md);
+      padding-top: var(--xxxl);
+    "
+  >
+    <h1>Testing display of HTML elements</h1>
+    <p>
+      This page contains a bunch of HTML Elements and text. You can copy the
+      source code and use it test out various CSS Properties. For testing
+      purposes, you may use
+      <a href="css-linking#internal"><dfn>internal styles</dfn></a
+      >. Recall that these CSS rules are placed in between the
+      <code>head</code> tags using the following format:
+    </p>
+
+    <pre><code>&lt;style type="text/css"&gt;
+selector {
+property: value
+}
+&lt;/style&gt;</code>
+</pre>
+
+    <h1>This is 1st level heading</h1>
+    <p>This is a test paragraph.</p>
+    <h2>This is 2nd level heading</h2>
+    <p>This is a test paragraph.</p>
+    <h3>This is 3rd level heading</h3>
+    <p>This is a test paragraph.</p>
+    <h4>This is 4th level heading</h4>
+    <p>This is a test paragraph.</p>
+    <h5>This is 5th level heading</h5>
+    <p>This is a test paragraph.</p>
+    <h6>This is 6th level heading</h6>
+    <p>This is a test paragraph.</p>
+
+    <hr />
+
+    <h2>Basic block level elements</h2>
+
+    <p>
+      This is a normal paragraph (<code>p</code> element). To add some length to
+      it, let us mention that this page was primarily written for testing the
+      effect of <strong>user style sheets</strong>. You can use it for various
+      other purposes as well, like just checking how your browser displays
+      various HTML elements. Don't forget <small>small</small> and
+      <sup>sup</sup> tags.
+    </p>
+
+    <p>
+      This is another paragraph.
+      <mark
+        >I think it needs to be added that the set of elements tested is not
+        exhaustive in any sense.</mark
+      >
+      I have selected those elements for which it can make sense to write user
+      style sheet rules, in my opinion.
+    </p>
+
+    <div>
+      This is a <code>div</code> element. Authors may use such elements instead
+      of paragraph markup for various reasons. (End of <code>div</code>.)
+    </div>
+
+    <blockquote>
+      <p>
+        This is a <i>block quotation</i> containing a single paragraph. Well,
+        not quite, since this is not <em>really</em> quoted text, but I hope you
+        understand the point. After all, this page does not use HTML markup very
+        normally anyway.
+      </p>
+    </blockquote>
+
+    <p>The following contains links to the Comm-244 home page</p>
+
+    <p>
+      <a href="http://web.simmons.edu/~grovesd/comm244">Comm-244 Website</a>,
+      <a href="http://web.simmons.edu/~grovesd/comm244/week3"
+        >Week 3 page for class</a
+      >
+    </p>
+
+    <details>
+      <summary>Details</summary>
+      <p>Something small enough to escape casual notice.</p>
+    </details>
+    <details>
+      <summary><h3>A H3 Details Heading</h3></summary>
+      <p>Something small enough to escape casual notice.</p>
+    </details>
+
+    <figure>
+      <img alt="Stock photo" src="https://picsum.photos/900/500" />
+      <figcaption><i>A delightful stock photo.</i></figcaption>
+    </figure>
+
+    <h2>Forms</h2>
+    <form>
+      <div>
+        <label>
+          <span>Input (text)</span>
+          <input type="text" placeholder="john@example.com" />
+          <span><small>This is some help text</small></span>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Input (email)</span>
+          <input type="email" placeholder="john@example.com" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Input (email, multiple)</span>
+          <input type="email" multiple="" placeholder="john@example.com" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Input (password)</span>
+          <input type="password" placeholder="john@example.com" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Input (date)</span>
+          <input type="date" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Input (datetime-local)</span>
+          <input type="datetime-local" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Input (month)</span>
+          <input type="month" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Input (number)</span>
+          <input type="number" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Input (search)</span>
+          <input type="search" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Input (time)</span>
+          <input type="time" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Input (week)</span>
+          <input type="week" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Input (tel)</span>
+          <input type="tel" multiple="" placeholder="john@example.com" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Input (url)</span>
+          <input type="url" multiple="" placeholder="john@example.com" />
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Select</span>
+          <select>
+            <option>Option 1</option>
+            <option>Option 2</option>
+          </select>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Select (multiple)</span>
+          <select multiple="">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+            <option>Option 4</option>
+            <option>Option 5</option>
+          </select>
+        </label>
+      </div>
+      <div>
+        <label>
+          <span>Textarea</span>
+          <textarea
+            rows="3"
+            placeholder="Enter some long form content."
+          ></textarea>
+        </label>
+      </div>
+      <span>Checkboxes</span>
+
+      <div>
+        <label>
+          <input type="checkbox" checked="" />
+          <span>Option 1</span>
+        </label>
+      </div>
+
+      <div>
+        <label>
+          <input type="checkbox" />
+          <span>Option 2</span>
+        </label>
+      </div>
+
+      <div>
+        <label>
+          <input type="checkbox" />
+          <span>Option 3</span>
+        </label>
+      </div>
+
+      <span>Radio Buttons</span>
+
+      <div>
+        <input
+          type="radio"
+          checked=""
+          id="option-1"
+          name="radio-direct"
+          value="1"
+        />
+        <label for="option-1">Option 1</label>
+      </div>
+
+      <div>
+        <input
+          type="radio"
+          checked=""
+          id="option-2"
+          name="radio-direct"
+          value="1"
+        />
+        <label for="option-2">Option 2</label>
+      </div>
+
+      <div>
+        <input
+          type="radio"
+          checked=""
+          id="option-3"
+          name="radio-direct"
+          value="1"
+        />
+        <label for="option-3">Option 3</label>
+      </div>
+
+      <button>Submit Booking</button><button>Submit Booking</button>
+    </form>
+
+    <h2>Lists</h2>
+
+    <p>
+      This is a paragraph before an <strong>unordered</strong> list
+      (<code>ul</code>). Note that the spacing between a paragraph and a list
+      before or after that is hard to tune in a user style sheet. You can't
+      guess which paragraphs are logically related to a list, e.g. as a "list
+      header".
+    </p>
+
+    <ul>
+      <li>One.</li>
+      <li>Two.</li>
+      <li>
+        Three. Well, probably this list item should be longer. Note that for
+        short items lists look better if they are compactly presented, whereas
+        for long items, it would be better to have more vertical spacing between
+        items.
+      </li>
+      <li>
+        Four. This is the last item in this list Let us terminate the list now
+        without making any more fuss about it.
+      </li>
+    </ul>
+
+    <p>
+      This is a paragraph before a <strong>ordered</strong> list
+      (<code>ol</code>). Note that the spacing between a paragraph and a list
+      before or after that is hard to tune in a user style sheet. You can't
+      guess which paragraphs are logically related to a list, e.g. as a "list
+      header".
+    </p>
+
+    <ol>
+      <li>One.</li>
+      <li>Two.</li>
+      <li>
+        Three. Well, probably this list item should be longer. Note that if
+        items are short, lists look better if they are compactly presented,
+        whereas for long items, it would be better to have more vertical spacing
+        between items.
+      </li>
+      <li>
+        Four. This is the last item in this list. Let us terminate the list now
+        without making any more fuss about it.
+      </li>
+    </ol>
+
+    <p>
+      This is a paragraph before a <strong>definition</strong> list
+      (<code>dl</code>). In principle, such a list should consist of
+      <em>terms</em> and associated definitions. But many authors use
+      <code>dl</code> elements for fancy "layout" things. Usually the effect is
+      not <em>too</em> bad, if you design user style sheet rules for
+      <code>dl</code> which are suitable for real definition lists.
+    </p>
+
+    <dl>
+      <dt>recursion</dt>
+      <dt></dt>
+      <dd>see recursion</dd>
+      <dt>recursion, indirect</dt>
+      <dd>see indirect recursion</dd>
+      <dt>indirect recursion</dt>
+      <dd>see recursion, indirect</dd>
+      <dt>term</dt>
+      <dd>
+        a word or other expression taken into specific use in a well-defined
+        meaning, which is often defined rather rigorously, even formally, and
+        may differ quite a lot from an everyday meaning
+      </dd>
+    </dl>
+
+    <h2>HTML Table</h2>
+
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>Alfreds Futterkiste</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>Centro comercial Moctezuma</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+      </tr>
+      <tr>
+        <td>Ernst Handel</td>
+        <td>Roland Mendel</td>
+        <td>Austria</td>
+      </tr>
+      <tr>
+        <td>Island Trading</td>
+        <td>Helen Bennett</td>
+        <td>UK</td>
+      </tr>
+      <tr>
+        <td>Laughing Bacchus Winecellars</td>
+        <td>Yoshi Tannamuri</td>
+        <td>Canada</td>
+      </tr>
+      <tr>
+        <td>Magazzini Alimentari Riuniti</td>
+        <td>Giovanni Rovelli</td>
+        <td>Italy</td>
+      </tr>
+    </table>
+    <br />
+    <hr />
+    <p>By Despite the Monkey</p>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
