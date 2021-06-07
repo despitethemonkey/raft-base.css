@@ -1,0 +1,57 @@
+label {
+  margin-top: var(--lg);
+  margin-bottom: var(--lg);
+  display: block;
+}
+label small {
+  color: var(--pen-light);
+}
+input,
+select,
+textarea {
+  background-color: var(--paper);
+  padding: var(--sm) var(--md);
+  margin-top: var(--sm);
+  border: 1px solid var(--paper);
+  border-radius: var(--radius-lg);
+  /* position field under label */
+  display: block;
+  /* fill screen on mobile */
+  width: 100%;
+}
+/* position input inline with label */
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline;
+  width: auto;
+}
+input::placeholder {
+  color: var(--pen-light);
+}
+input:focus,
+select:focus,
+textarea:focus {
+  border: 1px solid var(--focus);
+  outline: none;
+}
+
+/* Larger than a tablet */
+@media only screen and (min-width: 768px) {
+  input,
+  select,
+  textarea {
+    background-color: var(--white);
+    margin-top: var(--xs);
+    border: 1px solid var(--paper-dark);
+    border-radius: var(--radius-lg);
+    width: auto;
+  }
+  input::placeholder {
+    color: var(--pen-lighter);
+  }
+  input:focus,
+  select:focus,
+  textarea:focus {
+    box-shadow: 0 0 0 2px var(--focus-light);
+  }
+}

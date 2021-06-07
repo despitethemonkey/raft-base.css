@@ -1,0 +1,67 @@
+/* <a> */
+a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 1px;
+  color: var(--primary-dark);
+}
+a:hover {
+  color: var(--primary-dark-hover);
+}
+a:active {
+  color: var(--primary-dark-active);
+}
+/* <b>, <strong> */
+b,
+strong {
+  font-weight: var(--weight-bold);
+}
+/* <em>, <i> */
+i,
+em {
+  font-style: italic;
+}
+/* <blockquote> */
+blockquote {
+  background: var(--paper);
+  border: solid 0px var(--primary);
+  border-left-width: var(--xs);
+  padding: var(--lg);
+  margin: var(--md);
+  border-radius: var(--radius-sm);
+}
+blockquote p {
+  margin: 0;
+}
+
+/* <code>, <samp>, <pre> <kbd>*/
+code,
+samp,
+pre,
+kbd {
+  background-color: var(--paper);
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+pre {
+  padding: var(--md);
+}
+
+/* <hr> */
+hr {
+  border-top: 1px solid var(--paper-dark);
+}
+/* <mark> */
+mark {
+  background-color: var(--warning-light-active);
+  padding: 2px 4px;
+  border-radius: var(--radius-sm);
+}
+/* <small> */
+small {
+  text-size: var(--body-small);
+}
+/* <sup> */
+sup {
+  text-size: var(--body-small);
+}

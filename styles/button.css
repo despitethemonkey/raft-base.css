@@ -1,0 +1,29 @@
+button {
+  background-color: var(--paper);
+  color: var(--pen);
+  border: 0px;
+  font-size: var(--title-4);
+  font-weight: var(--weight);
+  line-height: var(--title-4-line);
+  padding: var(--sm) var(--md);
+  border-radius: var(--radius-lg);
+  width: 100%;
+  margin-top: var(--md);
+}
+button:hover {
+  color: var(--pen-hover);
+  background-color: var(--paper-hover);
+}
+button:active {
+  color: var(--pen-active);
+  background-color: var(--paper-active);
+}
+
+/* Larger than a tablet */
+@media only screen and (min-width: 768px) {
+  button {
+    width: auto;
+    border-radius: var(--radius-sm);
+    margin-right: var(--md);
+  }
+}

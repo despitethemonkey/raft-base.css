@@ -1,0 +1,19 @@
+table {
+  text-align: left;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: var(--sm);
+  border-bottom: 1px solid var(--paper-dark);
+}
+
+thead,
+th {
+  font-weight: var(--weight-bold);
+}
+
+tfoot {
+  background-color: var(--paper-dark);
+}

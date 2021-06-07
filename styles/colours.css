@@ -1,0 +1,7 @@
+body {
+  color: var(--pen);
+  background-color: var(--white);
+}
+::selection {
+  background: var(--focus-light-active);
+}

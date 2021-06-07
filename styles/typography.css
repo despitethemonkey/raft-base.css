@@ -1,0 +1,62 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: var(--body);
+  font-weight: var(--weight-light);
+  line-height: var(--body-line);
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+
+h1 {
+  font-size: var(--title-1);
+  font-weight: var(--weight-bold);
+  line-height: var(--title-1-line);
+  margin-top: 0;
+  margin-bottom: var(--xl);
+}
+
+h2 {
+  font-size: var(--title-2);
+  font-weight: var(--weight-light);
+  line-height: var(--title-2-line);
+  margin-top: var(--xxxl);
+  margin-bottom: var(--lg);
+}
+
+h3 {
+  font-size: var(--title-3);
+  font-weight: var(--weight);
+  line-height: var(--title-3-line);
+  margin-top: var(--xl);
+  margin-bottom: var(--sm);
+}
+
+h4 {
+  font-size: var(--title-4);
+  font-weight: var(--weight);
+  line-height: var(--title-4-line);
+  margin-top: var(--lg);
+  margin-bottom: var(--xs);
+}
+
+h5 {
+  font-size: var(--title-5);
+  font-weight: var(--weight-bold);
+  line-height: var(--title-5-line);
+  margin-top: var(--md);
+  margin-bottom: var(--xxs);
+}
+
+h6 {
+  font-size: var(--title-5);
+  font-weight: var(--weight);
+  line-height: var(--title-5-line);
+  margin-top: var(--md);
+  margin-bottom: var(--xxs);
+}
+
+p,
+pre {
+  margin-top: var(--lg);
+  margin-bottom: var(--lg);
+}

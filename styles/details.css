@@ -1,0 +1,16 @@
+details {
+  margin-top: var(--lg);
+  margin-bottom: var(--lg);
+}
+details summary {
+  font-size: var(--title-4);
+  line-height: var(--title-4-line);
+  cursor: pointer;
+}
+details summary > * {
+  display: inline;
+}
+details > *:nth-child(2) {
+  margin-top: var(--xxs);
+  padding: var(--sm);
+}

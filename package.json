@@ -2,10 +2,14 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "build": "postcss style.css -o out/raft-base.css && postcss style.css --config postcss-min-config -o out/raft-base.min.css"
   },
   "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "cssnano": "^5.0.5",
+    "postcss": "^8.3.0",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.2",
     "vite": "^2.3.5"
   }
 }

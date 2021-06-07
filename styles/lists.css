@@ -1,0 +1,22 @@
+ul,
+ol {
+  list-style-position: outside;
+  padding: 0 var(--xl);
+}
+ol {
+  list-style-type: decimal;
+}
+ul {
+  list-style-type: disc;
+}
+li {
+  margin-top: var(--xxs);
+}
+dt {
+  margin-top: var(--xxs);
+  font-weight: var(--weight-bold);
+}
+dd {
+  margin-top: var(--xxs);
+  padding-left: var(--md);
+}

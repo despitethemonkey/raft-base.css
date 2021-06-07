@@ -1,0 +1,6 @@
+figcaption {
+  padding: var(--sm);
+  font-size: var(--body-small);
+  line-height: var(--body-small-line);
+  color: var(--pen-light);
+}
