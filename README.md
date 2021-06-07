@@ -4,6 +4,8 @@ Raft-base is a classless stylesheet for quickly adding base styles to web projec
 
 Designed for a quick prototyping or for use with our Raft Ui Components.
 
+[Check it out here.](https://despitethemonkey.github.io/raft-base.css/)
+
 ## Why raft-base?
 
 - Quick to get started
