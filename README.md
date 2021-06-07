@@ -22,3 +22,9 @@ Instead of providing a never-ending list of css custom properties to tinker with
 raft-base is not a css framework or component library, it provides only basic styling out the box.
 
 ## Getting Started
+
+raft-base requires a css normaliser/moderniser we like [modern-normalise](https://github.com/sindresorhus/modern-normalize)
+
+Then simply include this tag in the `<head>` of your html document:
+
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/despitethemonkey/raft-base.css@0.1.0/out/raft-base.min.css">`
