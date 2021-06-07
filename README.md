@@ -28,3 +28,7 @@ raft-base requires a css normaliser/moderniser we like [modern-normalise](https:
 Then simply include this tag in the `<head>` of your html document:
 
 `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/despitethemonkey/raft-base.css@0.1.0/out/raft-base.min.css">`
+
+## Running Dev Environment
+
+`npm run dev` - Test page available at `localhost:3000`
